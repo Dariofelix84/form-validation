@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="sign-up-text-container">
+        <div>
+          <h1>Sign up</h1>
+          <p>to use all features <br> of the application</p> 
+        </div>
+
+        <img src="./assets/img/sign-up-img.png">
+      </div>
+
+      <div class="sign-up-container">
+        <form class="form">
+          <label for="username" id="username-label" class="form-input-label">USERNAME</label>
+          <input type="text" id="username" required class="form-input">
+
+          <label for="email" id="email-label" class="form-input-label">EMAIL</label>
+          <input type="email" id="email" required class="form-input">
+
+          <label for="password" id="password-label" class="form-input-label">PASSWORD</label>
+          <input type="password" id="password" required class="form-input">
+
+          <label for="repeat-password" id="repeat-password-label" class="form-input-label">REPEAT PASSWORD</label>
+
+          <input type="password" id="repeat-password" required class="form-input">
+
+          <footer class="footer">
+            <div class="terms-and-conditions-container">
+              <input type="checkbox" id="terms-and-conditions-checkbox" required>
+              <p>
+                By signing up I agree with <strong>terms and conditions</strong>
+              </p>
+            </div>
+
+            <div class="sign-up-or-log-in-container">
+              <button class="sign-up-button" type="submit">Sign up</button>
+              <button class="log-in-button">or <strong>Log in</strong></button>
+            </div>
+          </footer>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
